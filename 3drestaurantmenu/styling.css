@@ -1,0 +1,161 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}
+html{
+	font-size: 10px;
+	font-family: "Lato",Arial,sans-serif;
+	
+}
+
+section{
+	width:100%;
+	height: 250vh;
+	color:#fff;
+	margin: 0;
+  padding: 0;
+  
+  background: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+  background-size: 400% 400%;
+  animation: bganimation 8s ease-in-out infinite;
+	
+}
+div.rate{
+	
+	
+}
+
+
+
+p{
+	font-size:6rem;
+	font-family: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	top: 2%;
+	left: 50%;
+	transform :translate(-50%, -50%);
+	padding: 3rem 10rem;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #1040FF;
+}
+h2{
+	font-size:4rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+	position: relative;
+	top: 2%;
+	left: 50%;
+	transform :translate(-50%, -50%);
+	padding: 2rem 10rem;
+}
+h4{
+	
+	font-size:3rem;
+	font-family: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	top: 6%;
+	left: 50%;
+	transform :translate(-50%, -50%);
+	padding: 3rem 10rem;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #1040FF;
+}
+h1{
+	font-size:10rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: fixed;
+	right:900px;
+	top: 450px;
+	left: 70%;
+	transform :translate(-50%, -50%);
+	padding: 2rem 10rem;
+}
+h3{
+	font-size:4rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: fixed;
+	right:900px;
+	top: 300px;
+	left: 70%;
+	transform :translate(-50%, -50%);
+	padding: 2rem 10rem;
+}
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.box{
+	font-size:4rem;
+	font: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: fixed;
+	right:900px;
+	top: 600px;
+	left: 68%;
+	transform :translate(-50%, -50%);
+	padding: 2rem 10rem;
+	text-align: center;
+
+
+	
+}
+.box select{
+  background: linear-gradient(45deg,#2980b9,#e74c3c,#8e44ad);
+	color: #000;
+	padding: 10px;
+	width: 250px;
+	animation: bganimation 8s ease-in-out infinite;
+	border: 1px;
+	border-radius: 25px;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,1);
+	
+	-webkit-apperance: button;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #32CD32;
+}
+
+
+
+
+
+
+
+
+
+
